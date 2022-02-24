@@ -3,7 +3,9 @@ package com.patika.unit;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
+@SpringBootTest
 public class _2_TestFizzBuzz {
     //fizbuzz 0<=x<=50 arasında olsun
     //4 ile bölünebilebilen FIZZ
